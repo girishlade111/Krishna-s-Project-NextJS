@@ -1,7 +1,9 @@
 # TUM Website Clone
 
 This project is a clone of the Technical University of Munich (TUM) website, created within Firebase Studio. It's built using a modern tech stack including Next.js, React, TypeScript, and Tailwind CSS, with a focus on creating a pixel-perfect replica of the provided design.
-
+<br><br/>
+![My Project Screenshot](./screenshot.png)
+<br><br/>
 ## Key Features
 
 *   **Pixel-Perfect Replica**: The layout, components, and styling have been meticulously crafted to match the design of the TUM website.
