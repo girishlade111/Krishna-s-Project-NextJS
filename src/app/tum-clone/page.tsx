@@ -240,14 +240,14 @@ export default function TumClonePage() {
             <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8">
                  <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl mb-8">Our research goals</h2>
                  <div className="relative p-8 md:p-16 rounded-lg text-center bg-card" style={{backgroundImage: 'url("data:image/svg+xml,%3Csvg width=\'40\' height=\'40\' viewBox=\'0 0 40 40\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cg fill=\'%232d3748\' fill-opacity=\'0.1\' fill-rule=\'evenodd\'%3E%3Cpath d=\'M0 40L40 0H20L0 20M40 40V20L20 40\'/%3E%3C/g%3E%3C/svg%3E")'}}>
-                     <div className="grid grid-cols-2 gap-8 mb-8">
+                     <div className="grid grid-cols-2 gap-8 mb-8 text-white">
                         <p>Promoting digital transformation in a human-centered way</p>
                         <p>Shaping the bioeconomy and green technologies</p>
                         <p>Shaping the mobility transition and integrated transport systems</p>
                         <p>Understanding the fundamental principles of life</p>
                      </div>
                      <PlayCircle className="h-20 w-20 text-primary mx-auto my-8 cursor-pointer"/>
-                     <div className="grid grid-cols-2 gap-8 mt-8">
+                     <div className="grid grid-cols-2 gap-8 mt-8 text-white">
                         <p>Developing sustainable and smart infrastructures</p>
                         <p>Advancing healthcare and medicine through digital technologies</p>
                      </div>
