@@ -1,3 +1,46 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero",
+      "description": "A modern university campus building at dusk.",
+      "imageUrl": "https://images.unsplash.com/photo-1590579491624-f98f36d4c763?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx1bml2ZXJzaXR5JTIwY2FtcHVzfGVufDB8fHx8MTc2MjE0MjQ4NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "university campus"
+    },
+    {
+      "id": "news1",
+      "description": "Students working in a modern science laboratory.",
+      "imageUrl": "https://images.unsplash.com/photo-1605781573960-d12a0d37b2d4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzdHVkZW50cyUyMGxhYm9yYXRvcnl8ZW58MHx8fHwxNzYyMTkwOTIxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "students laboratory"
+    },
+    {
+      "id": "news2",
+      "description": "The facade of a modern architectural building at a university.",
+      "imageUrl": "https://images.unsplash.com/photo-1615406020658-6c4b805f1f30?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxtb2Rlcm4lMjBhcmNoaXRlY3R1cmV8ZW58MHx8fHwxNzYyMDY5OTI2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "modern architecture"
+    },
+    {
+      "id": "news3",
+      "description": "An empty modern lecture hall with tiered seating.",
+      "imageUrl": "https://images.unsplash.com/photo-1581492765274-38bb30a15121?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxsZWN0dXJlJTIwaGFsbHxlbnwwfHx8fDE3NjIxNDc0NDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "lecture hall"
+    },
+    {
+      "id": "research1",
+      "description": "A close-up of a robotic arm in an engineering lab.",
+      "imageUrl": "https://images.unsplash.com/photo-1581092335331-5e00ac65e934?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxyb2JvdGljcyUyMGVuZ2luZWVyaW5nfGVufDB8fHx8MTc2MjE5MDkyMHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "robotics engineering"
+    },
+    {
+      "id": "research2",
+      "description": "Abstract visualization of data networks.",
+      "imageUrl": "https://images.unsplash.com/photo-1617240016072-d92174e44171?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxkYXRhJTIwc2NpZW5jZXxlbnwwfHx8fDE3NjIxMDU1MTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "data science"
+    },
+    {
+      "id": "research3",
+      "description": "A scientist looking at a sample under a microscope in a biotech lab.",
+      "imageUrl": "https://images.unsplash.com/photo-1675774644240-f0999bbbacac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8YmlvdGVjaG5vbG9neSUyMHJlc2VhcmNofGVufDB8fHx8MTc2MjE5MDkyMXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "biotechnology research"
+    }
+  ]
 }
