@@ -1,3 +1,5 @@
+
+'use client';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Header } from '@/components/layout/header';
@@ -7,6 +9,8 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { ArrowRight, PlayCircle, ExternalLink, ChevronDown } from 'lucide-react';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
+import { VideoPlayer } from '@/components/video-player';
+import { useState } from 'react';
 
 const newsItems = [
   {
@@ -64,11 +68,14 @@ export default function TumClonePage() {
   const heroImage = PlaceHolderImages.find(p => p.id === 'hero');
   const tumInFiguresStudentImage = "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=800&q=80"
   const youngResearcherImage = "https://images.unsplash.com/photo-1523875194681-bedd468c58bf?w=800&q=80"
+
+  const [videoUrl, setVideoUrl] = useState('');
   
   return (
     <div className="bg-background font-body">
       <Header />
       <main>
+        {videoUrl && <VideoPlayer videoUrl={videoUrl} on-close={() => setVideoUrl('')} />}
         {/* Hero Section */}
         <section className="relative h-[70vh] min-h-[500px] text-white">
           {heroImage && (
@@ -195,8 +202,10 @@ export default function TumClonePage() {
         {/* What drives us */}
         <section className="pb-16 sm:pb-24">
             <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-8 items-center">
-                <div className="relative aspect-video rounded-lg overflow-hidden">
+                <div className="relative aspect-video rounded-lg overflow-hidden group cursor-pointer" onClick={() => setVideoUrl('https://www.youtube.com/embed/dQw4w9WgXcQ')}>
                      <Image src="https://images.unsplash.com/photo-1556761175-b413da4baf72?w=800&q=80" alt="President Hofmann in a meeting" fill className="object-cover" data-ai-hint="business meeting" />
+                     <div className="absolute inset-0 bg-black/40 group-hover:bg-black/60 transition-colors" />
+                     <PlayCircle className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-20 w-20 text-white/70 group-hover:text-white transition-colors" />
                 </div>
                 <div className="bg-blue-200/20 p-8 rounded-lg">
                     <h3 className="text-2xl font-bold text-white mb-4">What drives us: President Thomas F. Hofmann about TUM</h3>
@@ -246,7 +255,7 @@ export default function TumClonePage() {
                         <p>Shaping the mobility transition and integrated transport systems</p>
                         <p>Understanding the fundamental principles of life</p>
                      </div>
-                     <PlayCircle className="h-20 w-20 text-primary mx-auto my-8 cursor-pointer"/>
+                     <PlayCircle className="h-20 w-20 text-primary mx-auto my-8 cursor-pointer hover:text-primary/80 transition-colors" onClick={() => setVideoUrl('https://www.youtube.com/embed/dQw4w9WgXcQ')} />
                      <div className="grid grid-cols-2 gap-8 mt-8 text-white">
                         <p>Developing sustainable and smart infrastructures</p>
                         <p>Advancing healthcare and medicine through digital technologies</p>
