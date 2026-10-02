@@ -41,3 +41,9 @@ You'll need to have Node.js and `npm` (or `yarn`) installed on your machine.
     npm run dev
     ```
 3.  Open [http://localhost:9002](http://localhost:9002) with your browser to see the result. You can view the main clone at [http://localhost:9002/tum-clone](http://localhost:9002/tum-clone).
+
+---
+
+## Author
+
+Built by **Girish Lade** — https://ladestack.in
